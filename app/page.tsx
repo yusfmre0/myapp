@@ -5,7 +5,7 @@ import Footer from "./components/Footer"
 
 export default function Home() {
   return (
-    <main className="px-72">
+    <main className="px-72 max-[1100px]:px-40 max-[700px]:px-20 max-[500px]:px-5">
       <Background id="tsparticles"></Background>
       <Main></Main>
       <Skills></Skills>

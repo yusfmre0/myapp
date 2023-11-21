@@ -4,10 +4,10 @@ import Typewriter from "typewriter-effect"
 
 export default function Main() {
     return (
-        <section className="w-full h-full flex justify-between">
-            <div className="w-1/2 h-full flex flex-col py-52">
+        <section className="w-full h-full">
+            <div className="w-1/2 h-full flex flex-col py-52 max-[1350px]:w-full">
                 <h6 className="text-white">Hi, it's...</h6>
-                <h1 id="myName" className="text-[90px] font-bold text-white">
+                <h1 id="myName" className="text-[90px] font-bold text-white max-[500px]:text-[80px]">
                     <Typewriter
                         onInit={(typewriter) => { 
                             typewriter
@@ -19,7 +19,7 @@ export default function Main() {
                         }}
                     />
                 </h1>
-                <h3 className="text-white">
+                <h3 className="text-white max-[500px]:text-sm">
                     <Typewriter
                         onInit={(typewriter) => { 
                             typewriter
