@@ -6,7 +6,7 @@ import Footer from "./components/Footer"
 export default function Home() {
   return (
     <main className="px-72">
-      <Background></Background>
+      <Background id="tsparticles"></Background>
       <Main></Main>
       <Skills></Skills>
       <Footer></Footer>
