@@ -15,6 +15,7 @@ export default function Home() {
   return (
 
     <main className="px-72 max-[1100px]:px-40 max-[700px]:px-20 max-[500px]:px-5">
+      <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2994568811254175" crossOrigin="anonymous"></Script>
       <Script async src="https://www.googletagmanager.com/gtag/js?id=G-T98MCWLNJ4"></Script>
       <Script id="google-analytics">
         {`
