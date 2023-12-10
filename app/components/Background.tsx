@@ -20,7 +20,7 @@ export default function ParticlesComponent(props: { id: string }) {
         options={{
           fpsLimit: 60,
           background: {
-            color: "#000"
+            color: "#111827"
           },
           interactivity: {
             events: {
@@ -46,7 +46,7 @@ export default function ParticlesComponent(props: { id: string }) {
                 enable: true,
                 area: 800
               },
-              value: 80
+              value: 400
             },
             opacity: {
               value: {
@@ -58,7 +58,7 @@ export default function ParticlesComponent(props: { id: string }) {
               type: "circle"
             },
             size: {
-              value: { min: 1, max: 5 }
+              value: { min: .5, max: 3 }
             }
           }
         }}
