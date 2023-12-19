@@ -15,7 +15,6 @@ export const metadata = {
 
 export default function Home() {
   return (
-
     <main className="px-72 max-[1100px]:px-40 max-[700px]:px-20 max-[500px]:px-5">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
       <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2994568811254175" crossOrigin="anonymous"></Script>
